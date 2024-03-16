@@ -1,0 +1,30 @@
+.carousel-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 650px; /* Adjust height as needed */
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    bottom: 20px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white; /* Change text color as needed */
+  }
+
+
+  @media (max-width: 767px) {
+ 
+    .carousel-image-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: black;
+      height: 550px; /* Adjust height as needed */
+    }
+    
+  
+    }

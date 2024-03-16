@@ -1,0 +1,77 @@
+.shiriti{
+    width: 100%;
+    height: 200px;
+    background: #F4F4F4 0% 0% no-repeat padding-box;
+
+}
+.shiriti h3{
+    margin-right: 200px;
+    padding-left: 150px;
+}
+.shiriti {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.listdjathtas{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.listdjathtas {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 1000px;
+   height: auto;
+   text-align: center;
+   list-style-type: none;
+   margin-right: 10px; /* Add space between icons if needed */
+   text-decoration: none; /* Remove the default underline */
+}
+.fa{
+    margin-bottom: 12px;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .shiriti {
+        width: 100%;
+        height: 100%;
+        background: #F4F4F4 0% 0% no-repeat padding-box;
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center;
+    }
+    
+    .shiriti h3 {
+        align-items: center;
+        text-align: center;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    
+    .listdjathtas {
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        width: 100%; 
+        text-align: center;
+        list-style-type: none;
+        text-decoration: none; 
+        padding: 10px;
+    }
+    
+    .fa {
+        margin-bottom: 12px;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .listdjathtas {
+            flex-wrap: wrap; 
+        }
+    }
+}

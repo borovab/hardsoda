@@ -1,0 +1,53 @@
+.shiritizi{
+    width: 100%;
+    height: 700px;
+    background-color: black	;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.contact-form{
+    width: 400px;
+    height: auto;
+    margin-top: 17%;
+    align-self: left;
+    margin-left: 70px;
+}
+.contact-form h3 {
+    color: whitesmoke;
+    font-size: 40px;
+}
+.contact-form p {
+    color: whitesmoke;
+    font-size: 16px;
+}
+.contact-form .icons {
+    font-size: 25px;
+    margin-left: 5px;
+
+}
+.shiritizi img {
+    width: 400px;
+    height: 600px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+@media (max-width: 767px) {
+    .shiritizi{
+        width: 100%;
+        height: 1000px;
+    }
+    .shiritizi img{
+        width: 300px;
+        height: 400px;
+        margin-left: 50px;
+    }
+    .contact-form{
+        margin-top: 5%;
+        align-self: left;
+        margin-left: 0px;
+        padding: 10px;
+    }
+}
